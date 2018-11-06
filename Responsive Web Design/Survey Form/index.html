@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <title>Surver Form</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 
 <body>
     <h1 id="title">Survey Form</h1>
     <div id="outer-form">
-        <p id="title">Let us know how we can improve freeCodeCamp</p>
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
         <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
             <div class="rowtab">
                 <div class="labels">
@@ -30,10 +31,10 @@
             </div>
             <div class="rowtab">
                 <div class="labels">
-                    <label for="age" id="age-label">* Age: </label>
+                    <label for="number" id="number-label">* Age: </label>
                 </div>
                 <div class="righttab">
-                    <input type="number" name="age" id="age" class="input-field" required placeholder="Age">
+                    <input type="number" name="age" id="number" class="input-field" required placeholder="Age" min="1" max="125">
                 </div>
             </div>
             <div class="rowtab">
