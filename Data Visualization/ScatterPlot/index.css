@@ -1,0 +1,32 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  
+  html {
+    font-size: 62.5%; 
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;  
+  }
+  .main {
+      position: relative;
+  }
+  #title {
+    text-align: center;
+    line-height: 5rem;
+  }
+  
+  #title h2 {
+    font-weight: 200;
+  }
+
+  .overlay {
+      opacity: 0; 
+      padding: 1rem;
+      text-align: left; 
+      border-radius: 10px;
+  }
